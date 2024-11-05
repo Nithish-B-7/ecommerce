@@ -1,0 +1,211 @@
+.home-top{
+  min-height: 100px;
+}
+.home-line {
+  width: 30rem; 
+  border: 1.4px dashed #333;
+}
+
+.home-deal {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.deal-text{
+  background-color: #0e84ec;
+  color: #f5f5f5;
+  padding: 15px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.deal-text h2{
+  flex-grow: 1;
+  text-align: center;
+}
+
+.cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.full-div {
+  max-width: 600px;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-left: 50px;
+}
+
+.full-div h6 {
+  font-size: 1rem;
+  background-color: #e73232;
+  margin-bottom: 10px;
+  color: #f5f5f5;
+  width: fit-content;
+  padding: 10px 20px;
+  border-radius: 0px 10px 0px 10px;
+}
+
+.full-div h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+}
+
+.full-div p {
+  font-size: 1.2rem;
+  color: #666;
+  margin: 5px 0;
+  letter-spacing: 1.5px;
+}
+
+.shake {
+  font-weight: bold;
+  color: #2a77c9;
+  display: inline-block;
+  animation: shake 4s infinite;
+  font-size: 2rem;
+}
+
+@keyframes shake {
+  0% { transform: rotate(0deg); }
+  1% { transform: rotate(0deg); }
+  2% { transform: rotate(0deg); }
+  3% { transform: rotate(1.67deg); }
+  4% { transform: rotate(3.33deg); }
+  5% { transform: rotate(5deg); }
+  6% { transform: rotate(6.67deg); }
+  7% { transform: rotate(8.33deg); }
+  8% { transform: rotate(10deg); }
+  9% { transform: rotate(11.67deg); }
+  10% { transform: rotate(13.33deg); }
+  11% { transform: rotate(15deg); }
+  12% { transform: rotate(16.67deg); }
+  13% { transform: rotate(18.33deg); }
+  14% { transform: rotate(20deg); }
+  15% { transform: rotate(21.67deg); }
+  16% { transform: rotate(23.33deg); }
+  17% { transform: rotate(25deg); }
+  18% { transform: rotate(26.67deg); }
+  19% { transform: rotate(28.33deg); }
+  20% { transform: rotate(30deg); }
+  21% { transform: rotate(28.33deg); }
+  22% { transform: rotate(26.67deg); }
+  23% { transform: rotate(25deg); }
+  24% { transform: rotate(23.33deg); }
+  25% { transform: rotate(21.67deg); }
+  26% { transform: rotate(20deg); }
+  27% { transform: rotate(18.33deg); }
+  28% { transform: rotate(16.67deg); }
+  29% { transform: rotate(15deg); }
+  30% { transform: rotate(13.33deg); }
+  31% { transform: rotate(11.67deg); }
+  32% { transform: rotate(10deg); }
+  33% { transform: rotate(8.33deg); }
+  34% { transform: rotate(6.67deg); }
+  35% { transform: rotate(5deg); }
+  36% { transform: rotate(3.33deg); }
+  37% { transform: rotate(1.67deg); }
+  38% { transform: rotate(0deg); }
+  39% { transform: rotate(-1.67deg); }
+  40% { transform: rotate(-3.33deg); }
+  41% { transform: rotate(-5deg); }
+  42% { transform: rotate(-6.67deg); }
+  43% { transform: rotate(-8.33deg); }
+  44% { transform: rotate(-10deg); }
+  45% { transform: rotate(-11.67deg); }
+  46% { transform: rotate(-13.33deg); }
+  47% { transform: rotate(-15deg); }
+  48% { transform: rotate(-16.67deg); }
+  49% { transform: rotate(-18.33deg); }
+  50% { transform: rotate(-20deg); }
+  51% { transform: rotate(-18.33deg); }
+  52% { transform: rotate(-16.67deg); }
+  53% { transform: rotate(-15deg); }
+  54% { transform: rotate(-13.33deg); }
+  55% { transform: rotate(-11.67deg); }
+  56% { transform: rotate(-10deg); }
+  57% { transform: rotate(-8.33deg); }
+  58% { transform: rotate(-6.67deg); }
+  59% { transform: rotate(-5deg); }
+  60% { transform: rotate(-3.33deg); }
+  61% { transform: rotate(-1.67deg); }
+  62% { transform: rotate(0deg); }
+  63% { transform: rotate(1.67deg); }
+  64% { transform: rotate(3.33deg); }
+  65% { transform: rotate(5deg); }
+  66% { transform: rotate(6.67deg); }
+  67% { transform: rotate(8.33deg); }
+  68% { transform: rotate(10deg); }
+  69% { transform: rotate(11.67deg); }
+  70% { transform: rotate(13.33deg); }
+  71% { transform: rotate(15deg); }
+  72% { transform: rotate(16.67deg); }
+  73% { transform: rotate(18.33deg); }
+  74% { transform: rotate(20deg); }
+  75% { transform: rotate(18.33deg); }
+  76% { transform: rotate(16.67deg); }
+  77% { transform: rotate(15deg); }
+  78% { transform: rotate(13.33deg); }
+  79% { transform: rotate(11.67deg); }
+  80% { transform: rotate(10deg); }
+  81% { transform: rotate(8.33deg); }
+  82% { transform: rotate(6.67deg); }
+  83% { transform: rotate(5deg); }
+  84% { transform: rotate(3.33deg); }
+  85% { transform: rotate(1.67deg); }
+  86% { transform: rotate(0deg); }
+  87% { transform: rotate(-1.67deg); }
+  88% { transform: rotate(-3.33deg); }
+  89% { transform: rotate(-5deg); }
+  90% { transform: rotate(-6.67deg); }
+  91% { transform: rotate(-8.33deg); }
+  92% { transform: rotate(-10deg); }
+  93% { transform: rotate(-11.67deg); }
+  94% { transform: rotate(-10deg); }
+  95% { transform: rotate(-8.33deg); }
+  96% { transform: rotate(-6.67deg); }
+  97% { transform: rotate(-5deg); }
+  98% { transform: rotate(-3.33deg); }
+  99% { transform: rotate(-1.67deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.home-btn{
+  background-color: #333;
+  color: #f5f5f5;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 15px;
+  transition: all 0.3s ease-in-out;
+}
+
+.home-btn:hover{
+  background-color: transparent;
+  color: #333;
+  border: 1px solid #333;
+}
+
+.image-div {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.image-div img {
+  max-width: 100%;
+  height: auto;
+}
