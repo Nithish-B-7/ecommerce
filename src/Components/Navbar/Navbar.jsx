@@ -1,6 +1,6 @@
 import React from "react";
 import "./Navbar.css";
-import logo from "../../Assets/logo.png";
+import logo from "../../Assets/nav-log.png";
 import { FaShoppingCart } from "react-icons/fa";
 import { FaCircleUser } from "react-icons/fa6";
 import { RiArrowGoBackFill } from "react-icons/ri";
