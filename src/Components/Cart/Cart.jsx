@@ -28,7 +28,7 @@ const Cart = () => {
     <div className="back-btn" onClick={backToHome}>
     <FaArrowLeftLong /> &nbsp;back
     </div>
-      <h2>Your Cart</h2>
+      <h2>Your Carts</h2>
       <ul className="cart-items-list">
         {cartItems.map((item) => (
           <li className="cart-item" key={item.id}>
