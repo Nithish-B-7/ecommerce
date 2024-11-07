@@ -2,7 +2,8 @@ export const products =
      [
       {
         "id": 1,
-        "name": "Galaxy S24 AI",
+        "title": "Galaxy S24 AI",
+        "description": "Fire-Boltt Ninja Call Pro Plus 46.48mm (1.83 inch) Smart Watch with Bluetooth Calling, AI Voice Assistance, 120 Sports Modes IP67 Rating, 240 * 280 Pixel High Resolution (Black)",
         "brand": "Samsung",
         "price": 799.99,
         "category": "Mobile Phones",
@@ -11,7 +12,8 @@ export const products =
       },
       {
         "id": 2,
-        "name": "Macbook Air",
+        "title": "Macbook Air",
+        "description": "Fire-Boltt Ninja Call Pro Plus 46.48mm (1.83 inch) Smart Watch with Bluetooth Calling, AI Voice Assistance, 120 Sports Modes IP67 Rating, 240 * 280 Pixel High Resolution (Black)",
         "brand": "Apple",
         "price": 1299.99,
         "category": "Computers",
@@ -20,7 +22,8 @@ export const products =
       },
       {
         "id": 3,
-        "name": "Headphones",
+        "title": "Headphones",
+        "description": "Fire-Boltt Ninja Call Pro Plus 46.48mm (1.83 inch) Smart Watch with Bluetooth Calling, AI Voice Assistance, 120 Sports Modes IP67 Rating, 240 * 280 Pixel High Resolution (Black)",
         "brand": "Sony",
         "price": 199.99,
         "category": "Audio",
@@ -29,7 +32,8 @@ export const products =
       },
       {
         "id": 4,
-        "name": "Smart TV",
+        "title": "Smart TV",
+        "description": "Fire-Boltt Ninja Call Pro Plus 46.48mm (1.83 inch) Smart Watch with Bluetooth Calling, AI Voice Assistance, 120 Sports Modes IP67 Rating, 240 * 280 Pixel High Resolution (Black)",
         "brand": "LG",
         "price": 999.99,
         "category": "Television",
@@ -38,7 +42,8 @@ export const products =
       },
       {
         "id": 5,
-        "name": "Playstation 5",
+        "title": "Playstation 5",
+        "description": "Fire-Boltt Ninja Call Pro Plus 46.48mm (1.83 inch) Smart Watch with Bluetooth Calling, AI Voice Assistance, 120 Sports Modes IP67 Rating, 240 * 280 Pixel High Resolution (Black)",
         "brand": "Sony",
         "price": 149.99,
         "category": "Audio",
@@ -47,7 +52,8 @@ export const products =
       },
       {
         "id": 6,
-        "name": "Smartwatch",
+        "title": "Smartwatch",
+        "description": "Fire-Boltt Ninja Call Pro Plus 46.48mm (1.83 inch) Smart Watch with Bluetooth Calling, AI Voice Assistance, 120 Sports Modes IP67 Rating, 240 * 280 Pixel High Resolution (Black)",
         "brand": "Apple",
         "price": 399.99,
         "category": "Wearables",
@@ -56,7 +62,8 @@ export const products =
       },
       {
         "id": 7,
-        "name": "Digital Camera",
+        "title": "Digital Camera",
+        "description": "Fire-Boltt Ninja Call Pro Plus 46.48mm (1.83 inch) Smart Watch with Bluetooth Calling, AI Voice Assistance, 120 Sports Modes IP67 Rating, 240 * 280 Pixel High Resolution (Black)",
         "brand": "Canon",
         "price": 699.99,
         "category": "Cameras",
@@ -65,7 +72,8 @@ export const products =
       },
       {
         "id": 8,
-        "name": "Tablet",
+        "title": "Tablet",
+        "description": "Fire-Boltt Ninja Call Pro Plus 46.48mm (1.83 inch) Smart Watch with Bluetooth Calling, AI Voice Assistance, 120 Sports Modes IP67 Rating, 240 * 280 Pixel High Resolution (Black)",
         "brand": "Samsung",
         "price": 549.99,
         "category": "Tablets",

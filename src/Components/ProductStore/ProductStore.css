@@ -34,12 +34,13 @@
   margin: 10px;
   overflow: hidden;
   width: 250px;
-  transition: transform 0.3s;
+  transition: all 0.3s ease-in-out;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .card:hover {
-  transform: scale(1.05);
+  transform: scale(1.03);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
 }
 
 .product-img {

@@ -120,6 +120,37 @@
     justify-content: space-between;
   }
 
+  .display-qauntity-btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .quantity-buttons{
+    width: 5rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .quantity-buttons button{
+    padding: 4px;
+    width: 2rem;
+    cursor: pointer;
+  }
+
+  .add-cart-btn{
+    background-color: #9df575;
+  }
+
+  .less-cart-btn{
+    background-color: #ff4d4f;
+  }
+
+  .less-cart-btn:disabled{
+    background-color: #ccc;
+  }
+
   .cart-main{
     display: flex;
     flex-direction: column;
@@ -175,4 +206,19 @@
 
   .back-btn:hover{
     background-color: #bebcbc;
+  }
+
+  .goToPro-page{
+    text-align: center;
+    text-decoration: underline;
+    cursor: pointer;
+    height: 2rem;
+    width: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .goToPro-page:hover{
+    text-decoration: none;
   }
