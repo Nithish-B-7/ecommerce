@@ -60,6 +60,10 @@
     font-size: 0.8rem;
   }
   
+  .email-field{
+    display: flex;
+  }
+
   .email-field input{
     padding: 10px 20px;
     outline: none;
@@ -72,9 +76,6 @@
     outline: none;
     border-radius: 0 5px 5px 0;
     cursor: pointer;
-  }
-
-  .email-field button{
     background-color: #2466f5;
     border: none;
     color: #fff;

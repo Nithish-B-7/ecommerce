@@ -60,3 +60,19 @@
 .ip-right p{
     font-weight: 500;
 }
+
+.with-back-arrow{
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.ip-back-btn{
+    margin-bottom: 50px;
+    background-color: #dbdbdb;
+    border: 1px solid #555454;
+    width: fit-content;
+    padding: 8px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
