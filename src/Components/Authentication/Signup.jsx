@@ -47,7 +47,7 @@ const Signup = ({ onSwitch }) => {
         </div>
       </form>
       <p>
-        Already have an account?{" "}
+        Already have an account?&nbsp;
         <span className="switch" onClick={onSwitch}>
           Login
         </span>

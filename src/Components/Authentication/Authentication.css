@@ -26,7 +26,7 @@
 }
 
 .auth-input-group label {
-  display: block;
+  display: flex;
   margin-bottom: 5px;
 }
 
@@ -35,7 +35,7 @@ label{
 }
 
 .auth-input-group input {
-  width: 100%;
+  width: 95%;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -51,7 +51,7 @@ label{
 .auth-btn button {
   width: 30%;
   padding: 10px;
-  background-color: #007bff;
+  background-color: #0655a9;
   color: white;
   border: none;
   border-radius: 4px;
@@ -61,10 +61,38 @@ label{
 }
 
 .auth-btn button:hover {
-  background-color: #0056b3;
+  background-color: #024083;
 }
 
 .switch {
-  color: #007bff;
+  color: #0056b3;
   cursor: pointer;
+}
+
+.switch:hover{
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .auth-container {
+    padding: 2rem 20px;
+    width: 90%;
+  }
+
+  .auth-input-group input {
+    width: 95%;
+  }
+
+  .auth-btn button {
+    width: 100%;
+    max-width: 100px;
+  }
+
+  .auth-container h2 {
+    font-size: 1.5rem;
+  }
+
+  .auth-wrapper {
+    padding: 0 10px;
+  }
 }
